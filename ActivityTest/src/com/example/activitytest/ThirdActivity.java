@@ -17,7 +17,7 @@ public class ThirdActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.third_layout);
-	//	Button button2 = (Button)findViewById(R.id.button_2);
+		Button button2 = (Button)findViewById(R.id.button_2);
 		
 		//button2.setOnClickListener(new OnClickListener(){
 			//@Override
